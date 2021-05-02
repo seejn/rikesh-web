@@ -42,17 +42,7 @@ header nav div.searchBox .searchBox_items {
 }
 
 .body_content .slide_show {
-  height: 75vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  height: auto;
 }
 
 .body_content .slide_show .slide_show_container {
@@ -73,6 +63,7 @@ header nav div.searchBox .searchBox_items {
 }
 
 .body_content .articles {
+  margin-top: 2rem;
   height: auto;
 }
 
@@ -80,10 +71,11 @@ header nav div.searchBox .searchBox_items {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 2rem 0;
 }
 
 .body_content .articles .container .article_content div {
-  margin-right: 0.5rem;
+  margin-right: 1rem;
 }
 
 .body_content .articles .container .article_content .imgcontainer {
