@@ -1,0 +1,95 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header
+{
+    height: auto;
+    width: 100%;
+    border: 2px solid black;
+    padding: 1.5rem 1rem;
+}
+
+header nav div.title
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+header nav div.searchBox
+{
+    width: 50%;
+    transform: translateX(100%);
+}
+header nav div.searchBox .searchBox_items
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+//body content 
+.body_content
+{
+    padding: 1rem;
+}
+
+    //SLIDE SHOW SECTION
+.body_content .slide_show
+{
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.body_content .slide_show .slide_show_container
+{
+    display: flex;
+}
+.body_content .slide_show .slide_show_container .container
+{
+    margin-right: 0.5rem;
+    text-align: center;
+    width: 33.333%;
+}
+.body_content .slide_show .slide_show_container .container .imgcontainer img, .body_content .slide_show .slide_show_container .container .imgcontainer
+{
+    height: 100%;
+    width: 100%;
+}
+
+    //ARTICLE SECTION
+
+.body_content .articles
+{
+    height: auto;
+}
+.body_content .articles .container .article_content
+{
+    display: flex;
+}
+.body_content .articles .container .article_content div
+{
+    margin-right: 0.5rem;   
+}
+.body_content .articles .container .article_content .imgcontainer
+{
+    height: 100%;
+    width: 80%;
+}
+.body_content .articles .container .article_content .imgcontainer img
+{
+    height: 100%;
+    width: 100%;
+}
+ //footer
+
+ footer 
+ {
+     display: flex;
+     justify-content: center;
+ }

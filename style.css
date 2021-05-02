@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  height: auto;
+  width: 100%;
+  border: 2px solid black;
+  padding: 1.5rem 1rem;
+}
+
+header nav div.title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+header nav div.searchBox {
+  width: 50%;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+}
+
+header nav div.searchBox .searchBox_items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.body_content {
+  padding: 1rem;
+}
+
+.body_content .slide_show {
+  height: 75vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.body_content .slide_show .slide_show_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.body_content .slide_show .slide_show_container .container {
+  margin-right: 0.5rem;
+  text-align: center;
+  width: 33.333%;
+}
+
+.body_content .slide_show .slide_show_container .container .imgcontainer img, .body_content .slide_show .slide_show_container .container .imgcontainer {
+  height: 100%;
+  width: 100%;
+}
+
+.body_content .articles {
+  height: auto;
+}
+
+.body_content .articles .container .article_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.body_content .articles .container .article_content div {
+  margin-right: 0.5rem;
+}
+
+.body_content .articles .container .article_content .imgcontainer {
+  height: 100%;
+  width: 80%;
+}
+
+.body_content .articles .container .article_content .imgcontainer img {
+  height: 100%;
+  width: 100%;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=style.css.map */
